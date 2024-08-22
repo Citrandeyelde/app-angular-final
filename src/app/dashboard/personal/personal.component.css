@@ -1,0 +1,64 @@
+.card {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.btnEmpleado {
+  background-color: #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #2f6aa4;
+  font-weight: bold;
+}
+
+.mat-table-styled {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.crear-personal-btn {
+  background-color: #007bff; 
+  color: #ffffff; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  margin: 20px 0; 
+  display: inline-block; 
+  text-align: center; 
+  font-size: 16px; 
+}
+
+.crear-personal-btn:hover {
+  background-color: #0056b3;
+}
+
